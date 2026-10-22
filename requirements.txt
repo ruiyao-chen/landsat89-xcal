@@ -1,0 +1,11 @@
+# Core (synthetic pipeline + analysis + plots)
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Tests
+pytest>=7.0
+
+# Real-data backend (Google Earth Engine). Optional: only needed for
+# `--backend gee`. After install, run `earthengine authenticate` once.
+earthengine-api>=0.1.380

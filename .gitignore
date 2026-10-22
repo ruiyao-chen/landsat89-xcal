@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Earth Engine credentials - NEVER commit these
+.config/earthengine/
+*credentials*.json
+*.pem
+
+# Generated outputs (keep the committed example figures; ignore scratch)
+figures/scratch/
+*.tif
+*.tiff
+
+# Editors
+.idea/
+.vscode/
